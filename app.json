@@ -1,13 +1,12 @@
 {
   "expo": {
-    "name": "inproStore",
+    "name": "Inpro Store",
     "slug": "inproStore",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/inprologo.jpg",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +18,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/inprologo.jpg",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.bhuwan_darai.inproStore"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "170bb498-0fc7-4ca4-8f5c-c78c50e5be2e"
+      }
     }
   }
 }
